@@ -1,0 +1,52 @@
+#head{
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+#separate{
+    margin: 25px;
+}
+
+#rainbow{
+    background: linear-gradient(90deg, red, orangered, orange, yellow, greenyellow, yellowgreen, green, cadetblue, turquoise, cyan, cornflowerblue, blue, indigo, purple, orchid, violet, hotpink, palevioletred);
+            background-size: 400%;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+            animation: rainbow 8s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% }
+            100% { background-position: 400% }
+}
+
+#midsec{
+    background: linear-gradient(to bottom, white, darkcyan 60%);
+    min-height: 10vh;
+}
+
+#midsec-end{
+    background: linear-gradient(to bottom, darkcyan 60%, white);
+    min-height: 10vh;
+}
+
+#midsec-proper{
+    background-color: darkcyan;
+}
+h1{
+    text-align: center;
+}
+#centrarimagen{
+    text-align: center;
+    align-items: center;
+}
+#imagenderecha{
+    align-items: center;
+    float: right;
+    margin-top: -300px;   
+}
+header{
+    background: linear-gradient(to bottom, darkcyan 60%, white);
+    min-height: 10vh;
+}
